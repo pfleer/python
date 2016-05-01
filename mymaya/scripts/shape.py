@@ -5,11 +5,11 @@ from mymaya.tools import select
 def copy(sel, delete_original=True):
     """
     Copies shape node of first item to others in list
-    :param sel: list of objects, first item must have shape node to copy
-    :type sel: list
-    :param delete_original: delete original shape node object, default=True
-    :type delete_original: bool
-    :return: None
+    @param sel: list of objects, first item must have shape node to copy
+    @type sel: list
+    @param delete_original: delete original shape node object, default=True
+    @type delete_original: bool
+    @return: None
     """
 
     # Separate shape object from list
