@@ -1,9 +1,13 @@
 # python
 
 ## Synopsis
-A collection of Python code
+A repo for my Python code
 
-MIT License
+### mymaya
+Directory for maya related projects and scripts
+
+
+###MIT License
 
 Copyright (c) 2016 PAUL FLEER
 
