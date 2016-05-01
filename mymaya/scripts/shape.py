@@ -17,7 +17,7 @@ def copy(sel, delete_original=True):
 
     # Check to make sure first object has a shape node
     if not select.shape_node(object):
-        print("Error: First object should have shape node")
+        raise RuntimeError('First object should have shape node')
 
     else:
         # For every other item selected, copy and parent shape node, then delete copy
