@@ -4,7 +4,7 @@ def main():
     pass
 
 
-def first(list, pop=False, default=None):
+def first_or_default(list, default=None):
     for item in list:
         if item:
             return item
